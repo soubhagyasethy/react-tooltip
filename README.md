@@ -1,4 +1,4 @@
-# react-tooltip
+# tooltip-component
 
 A simple and customizable tooltip component built with ``React`.
 
@@ -53,3 +53,11 @@ export default App;
 - position - Determines the position of the tooltip relative to the hover element. Valid values are `top`, `bottom`, `left`, and `right `.
   Styling
 - The Tooltip component is designed to be easily customizable with CSS. You can style the tooltip and the arrow using the `tooltipStyle` and `arrowStyle` objects respectively in the `Tooltip.jsx` file.
+
+## Support
+
+For any issues, questions or comments regarding this tootip app, please open a GitHub issue or you can reach me at my LinkedIn and Twitter profile:
+
+<span><a href="https://www.linkedin.com/in/soubhagyasethy/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a></span> 
+ <span><a href="https://twitter.com/soubhagyasethy3"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a></span>
+
