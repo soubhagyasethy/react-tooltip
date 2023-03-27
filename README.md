@@ -2,6 +2,13 @@
 
 A simple and customizable tooltip component built with ``React`.
 
+Live preview: https://tooltip-component.netlify.app/
+
+Demo: 
+
+![React App](https://user-images.githubusercontent.com/82697602/227897010-7842931a-3cd9-4332-930c-088905b35833.gif)
+
+
 ## Features
 
 - Supports positioning on `top`, `bottom`, `left`, and `right `.
