@@ -1,16 +1,21 @@
 import { useState } from "react";
 
+// Define a Tooltip component that receives a position prop
 function Tooltip({ position }) {
+  // Declare a state variable called isVisible and a function to update it called setIsVisible, both initialized to false
   const [isVisible, setIsVisible] = useState(false);
 
+  // Define a function to set the isVisible state variable to true when the user hovers over the tooltip element
   function handleMouseEnter() {
     setIsVisible(true);
   }
 
+  // Define a function to set the isVisible state variable to false when the user stops hovering over the tooltip element
   function handleMouseLeave() {
     setIsVisible(false);
   }
 
+  // Define the CSS styles for the tooltip element using the position prop to determine its position on the page
   const tooltipStyle = {
     position: "absolute",
     top: position === "top" ? "-40px" : position === "bottom" ? "40px" : 0,
@@ -27,6 +32,7 @@ function Tooltip({ position }) {
       position === "left" || position === "right" ? "translateY(20%)" : "",
   };
 
+  // Define the CSS styles for the arrow that points towards the element that the tooltip is associated with
   const arrowStyle = {
     position: "absolute",
     content: '""',
@@ -41,6 +47,7 @@ function Tooltip({ position }) {
     transform: position === "bottom" && "rotate(180deg)",
   };
 
+  // Return the tooltip element and the element that the tooltip is associated with
   return (
     <div style={{ position: "relative" }}>
       <div
